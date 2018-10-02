@@ -14,3 +14,7 @@ Hw/libreria/croketa\.bck
 Hw/libreria/croketa\.dcm
 
 sym-lib-table
+
+*.kicad_pcb-bak
+
+_autosave-Croketa\.kicad_pcb
