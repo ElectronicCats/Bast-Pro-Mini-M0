@@ -6,24 +6,22 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Bast Pro Mini M0"
-Date "2018-09-28"
-Rev "0.1"
+Date "2018-10-08"
+Rev "0.2"
 Comp "Electronic Cats"
 Comment1 "Edgar Capuchino"
-Comment2 ""
+Comment2 "Andrés Sabas"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2530 1170 1    60   ~ 0
-RAW
 Text Label 1180 1270 0    60   ~ 0
 1(Tx)
 Text Label 1180 1370 0    60   ~ 0
 0(Rx)
 Text Label 1180 1470 0    60   ~ 0
-Reset
+RESET
 Text Label 2680 1470 0    60   ~ 0
-Reset
+RESET
 Text Label 1180 1670 0    60   ~ 0
 2
 Text Label 1180 1770 0    60   ~ 0
@@ -137,7 +135,7 @@ Wire Wire Line
 Wire Wire Line
 	1530 2370 1180 2370
 Wire Wire Line
-	2530 1170 2530 1270
+	2530 1170 2530 1220
 Wire Wire Line
 	2530 1270 2430 1270
 Wire Wire Line
@@ -162,12 +160,12 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR05
 U 1 1 56D75A9D
-P 2630 1170
-F 0 "#PWR05" H 2630 1020 50  0001 C CNN
-F 1 "VCC" H 2630 1320 50  0000 C CNN
-F 2 "" H 2630 1170 50  0000 C CNN
-F 3 "" H 2630 1170 50  0000 C CNN
-	1    2630 1170
+P 2370 1145
+F 0 "#PWR05" H 2370 995 50  0001 C CNN
+F 1 "VCC" H 2370 1295 50  0000 C CNN
+F 2 "" H 2370 1145 50  0000 C CNN
+F 3 "" H 2370 1145 50  0000 C CNN
+	1    2370 1145
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -218,8 +216,6 @@ Text Label 4300 1810 2    60   ~ 0
 A0
 Wire Wire Line
 	4300 1810 4430 1810
-Text Label 4290 1910 2    50   ~ 0
-AREF
 Wire Wire Line
 	4290 1910 4430 1910
 Text Label 4270 2010 2    60   ~ 0
@@ -264,8 +260,6 @@ Text Label 4230 2610 2    60   ~ 0
 A3
 Wire Wire Line
 	4230 2610 4430 2610
-Text Label 4230 2710 2    60   ~ 0
-A4
 Wire Wire Line
 	4230 2710 4430 2710
 Text Label 4220 2810 2    60   ~ 0
@@ -300,17 +294,15 @@ Wire Wire Line
 Text Label 4310 2510 0    50   ~ 0
 SCL
 Text Label 5890 2310 0    50   ~ 0
-USB_D-
+D-
 Wire Wire Line
 	5630 2310 5890 2310
 Text Label 5910 2410 0    50   ~ 0
-USB_D+
+D+
 Wire Wire Line
 	5630 2410 5910 2410
 Wire Wire Line
 	5630 2510 5890 2510
-Text Label 5890 2510 0    50   ~ 0
-LED
 Wire Wire Line
 	5630 2710 5880 2710
 Text Label 5880 2710 0    50   ~ 0
@@ -551,28 +543,6 @@ Wire Wire Line
 Wire Wire Line
 	2260 4200 2260 4070
 $Comp
-L power:+5V #PWR03
-U 1 1 5BB50E86
-P 2260 4070
-F 0 "#PWR03" H 2260 3920 50  0001 C CNN
-F 1 "+5V" H 2275 4243 50  0000 C CNN
-F 2 "" H 2260 4070 50  0001 C CNN
-F 3 "" H 2260 4070 50  0001 C CNN
-	1    2260 4070
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR06
-U 1 1 5BB50EF0
-P 7900 4380
-F 0 "#PWR06" H 7900 4230 50  0001 C CNN
-F 1 "+5V" H 7915 4553 50  0000 C CNN
-F 2 "" H 7900 4380 50  0001 C CNN
-F 3 "" H 7900 4380 50  0001 C CNN
-	1    7900 4380
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C1
 U 1 1 5BB50FD7
 P 8010 4850
@@ -689,7 +659,7 @@ F 3 "" H 10145 1730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9945 1730 2    60   ~ 0
-Reset
+RESET
 $Comp
 L power:GND #PWR08
 U 1 1 5BB747B9
@@ -754,7 +724,6 @@ Wire Wire Line
 	4615 4290 4985 4290
 Text Label 2680 2170 0    50   ~ 0
 12(MISO)
-NoConn ~ 5630 2610
 Wire Notes Line
 	11210 3615 11210 3595
 Wire Notes Line
@@ -769,4 +738,63 @@ Text Notes 8895 3785 0    50   ~ 0
 SOURCE
 Text Notes 2665 3775 0    50   ~ 0
 USB & SWD PORT
+Wire Wire Line
+	1550 4400 1730 4400
+Wire Wire Line
+	1550 4500 1730 4500
+NoConn ~ 1550 4600
+Text Label 1730 4400 0    50   ~ 0
+D+
+Text Label 1730 4500 0    50   ~ 0
+D-
+Wire Wire Line
+	5630 2610 5880 2610
+Text Label 5880 2610 0    50   ~ 0
+7
+Text Label 5890 2510 0    50   ~ 0
+6(**)
+Text Label 4230 2710 0    50   ~ 0
+LED
+$Comp
+L Croketa-cache:+3.3V #PWR0101
+U 1 1 5BBD0E40
+P 2630 1170
+F 0 "#PWR0101" H 2630 1020 50  0001 C CNN
+F 1 "+3.3V" H 2645 1343 50  0000 C CNN
+F 2 "" H 2630 1170 50  0001 C CNN
+F 3 "" H 2630 1170 50  0001 C CNN
+	1    2630 1170
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5BBD1305
+P 2260 4070
+F 0 "#PWR0102" H 2260 3920 50  0001 C CNN
+F 1 "VCC" H 2277 4243 50  0000 C CNN
+F 2 "" H 2260 4070 50  0001 C CNN
+F 3 "" H 2260 4070 50  0001 C CNN
+	1    2260 4070
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5BBD1622
+P 7900 4380
+F 0 "#PWR0103" H 7900 4230 50  0001 C CNN
+F 1 "VCC" H 7917 4553 50  0000 C CNN
+F 2 "" H 7900 4380 50  0001 C CNN
+F 3 "" H 7900 4380 50  0001 C CNN
+	1    7900 4380
+	1    0    0    -1  
+$EndComp
+Text Label 2530 1170 1    50   ~ 0
+RAW
+Wire Wire Line
+	2370 1145 2370 1220
+Wire Wire Line
+	2370 1220 2530 1220
+Connection ~ 2530 1220
+Wire Wire Line
+	2530 1220 2530 1270
 $EndSCHEMATC
