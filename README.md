@@ -1,6 +1,6 @@
 # Bast Pro Mini M0
 
-Electronic cats are a complete line of development plates for electronic cats.
+Electronic Cats Bast are a complete line of development plates for electronic cats.
 
 Bast Pro Mini M0 is all the best in the world Arduino Pro Mini with a core SAMD 21 M0 of 32 bits, pin to pin compatible with a micro USB port
 
