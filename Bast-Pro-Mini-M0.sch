@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Croketa-cache
+LIBS:Bast-Pro-Mini-M0-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -134,8 +134,6 @@ Wire Wire Line
 	1530 2270 1180 2270
 Wire Wire Line
 	1530 2370 1180 2370
-Wire Wire Line
-	2530 1170 2530 1220
 Wire Wire Line
 	2530 1270 2430 1270
 Wire Wire Line
@@ -345,7 +343,7 @@ F 3 "" H 7040 1590 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5630 1010 7160 1010
+	5630 1010 6680 1010
 Wire Wire Line
 	7180 1010 7180 1020
 Wire Wire Line
@@ -793,8 +791,16 @@ RAW
 Wire Wire Line
 	2370 1145 2370 1220
 Wire Wire Line
+	6680 1210 6680 1010
+Connection ~ 6680 1210
+Connection ~ 6680 1010
+Wire Wire Line
+	6680 1010 7160 1010
+Wire Wire Line
 	2370 1220 2530 1220
+Wire Wire Line
+	2530 1270 2530 1220
 Connection ~ 2530 1220
 Wire Wire Line
-	2530 1220 2530 1270
+	2530 1220 2530 1170
 $EndSCHEMATC
