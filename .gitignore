@@ -1,22 +1,32 @@
 
-Croketa-cache\.bck
+# Created by https://www.gitignore.io/api/kicad
+# Edit at https://www.gitignore.io/?templates=kicad
 
-Croketa-cache\.dcm
+### KiCad ###
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
-Croketa\.bak
-
-Croketa\.cmp
-
-Croketa\.net
-
-Hw/libreria/croketa\.bck
-
-Hw/libreria/croketa\.dcm
-
-sym-lib-table
-
+# Temporary files
+*.000
+*.bak
+*.bck
 *.kicad_pcb-bak
+*~
+_autosave-*
+*.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
 
-_autosave-Croketa\.kicad_pcb
+# Netlist files (exported from Eeschema)
+*.net
 
-_saved_Croketa\.sch
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# End of https://www.gitignore.io/api/kicad
