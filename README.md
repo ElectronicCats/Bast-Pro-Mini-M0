@@ -1,5 +1,10 @@
 # Bast Pro Mini M0
 
+![MX0005](https://github.com/ElectronicCats/Bast-Pro-Mini-M0/raw/master/mx00005.png)
+
+**[OSHW] MX0005 | Certified open source hardware |** [oshwa.org/cert.](https://www.oshwa.org/cert)
+
+
 Electronic Cats Bast are a complete line of development plates for electronic cats.
 
 Bast Pro Mini M0 is all the best in the world Arduino Pro Mini with a core SAMD 21 M0 of 32 bits, pin to pin compatible with a micro USB port
