@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Bast-Pro-Mini-M0-cache)(type Legacy)(uri ${KIPRJMOD}/Bast-Pro-Mini-M0-cache.lib)(options "")(descr ""))
+  (lib (name Bast-Pro-Mini-M0-rescue)(type Legacy)(uri ${KIPRJMOD}/Bast-Pro-Mini-M0-rescue.lib)(options "")(descr ""))
+)
