@@ -210,8 +210,6 @@ Text Label 4300 1810 2    60   ~ 0
 A0
 Wire Wire Line
 	4300 1810 4430 1810
-Wire Wire Line
-	4290 1910 4430 1910
 Text Label 4270 2010 2    60   ~ 0
 A1
 Wire Wire Line
@@ -807,4 +805,5 @@ Wire Wire Line
 Connection ~ 2530 1220
 Wire Wire Line
 	2530 1220 2530 1170
+NoConn ~ 4430 1910
 $EndSCHEMATC
