@@ -30,3 +30,9 @@ _autosave-*
 *.csv
 
 # End of https://www.gitignore.io/api/kicad
+
+Fw/\.DS_Store
+
+Hw/\.DS_Store
+
+\.DS_Store
