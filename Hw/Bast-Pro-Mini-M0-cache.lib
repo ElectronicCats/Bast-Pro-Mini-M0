@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Bast-Pro-Mini-M0-rescue_+3.3V-Croketa-cache
+# Bast-Pro-Mini-M0-rescue_+3.3V-Croketa-cache-Bast-Pro-Mini-M0-rescue
 #
-DEF Bast-Pro-Mini-M0-rescue_+3.3V-Croketa-cache #PWR 0 0 Y Y 1 F P
+DEF Bast-Pro-Mini-M0-rescue_+3.3V-Croketa-cache-Bast-Pro-Mini-M0-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Bast-Pro-Mini-M0-rescue_+3.3V-Croketa-cache" 0 140 50 H V C CNN
+F1 "Bast-Pro-Mini-M0-rescue_+3.3V-Croketa-cache-Bast-Pro-Mini-M0-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Bast-Pro-Mini-M0-rescue_AP2112K-3.3TRG1-Croketa-cache
+# Bast-Pro-Mini-M0-rescue_AP2112K-3.3TRG1-Croketa-cache-Bast-Pro-Mini-M0-rescue
 #
-DEF Bast-Pro-Mini-M0-rescue_AP2112K-3.3TRG1-Croketa-cache U 0 40 Y Y 1 L N
+DEF Bast-Pro-Mini-M0-rescue_AP2112K-3.3TRG1-Croketa-cache-Bast-Pro-Mini-M0-rescue U 0 40 Y Y 1 L N
 F0 "U" -302 341 50 H V L BNN
-F1 "Bast-Pro-Mini-M0-rescue_AP2112K-3.3TRG1-Croketa-cache" -301 -459 50 H V L BNN
+F1 "Bast-Pro-Mini-M0-rescue_AP2112K-3.3TRG1-Croketa-cache-Bast-Pro-Mini-M0-rescue" -301 -459 50 H V L BNN
 F2 "SOT95P285X140-5N" 0 0 50 H I L BNN
 F3 "AP2112K-3.3TRG1" 0 0 50 H I L BNN
 F4 "Diodes Inc." 0 0 50 H I L BNN
@@ -40,11 +40,11 @@ X VOUT 5 500 200 200 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# Bast-Pro-Mini-M0-rescue_ATSAMD21E18A-AF-Croketa-cache
+# Bast-Pro-Mini-M0-rescue_ATSAMD21E18A-AF-Croketa-cache-Bast-Pro-Mini-M0-rescue
 #
-DEF Bast-Pro-Mini-M0-rescue_ATSAMD21E18A-AF-Croketa-cache U 0 40 Y Y 1 L N
+DEF Bast-Pro-Mini-M0-rescue_ATSAMD21E18A-AF-Croketa-cache-Bast-Pro-Mini-M0-rescue U 0 40 Y Y 1 L N
 F0 "U" -401 1103 50 H V L BNN
-F1 "Bast-Pro-Mini-M0-rescue_ATSAMD21E18A-AF-Croketa-cache" -401 -1203 50 H V L BNN
+F1 "Bast-Pro-Mini-M0-rescue_ATSAMD21E18A-AF-Croketa-cache-Bast-Pro-Mini-M0-rescue" -401 -1203 50 H V L BNN
 F2 "QFP80P900X900X120-32N" 0 0 50 H I L BNN
 F3 "ATSAMD21E18A-AF" 0 0 50 H I L BNN
 F4 "Microchip" 0 0 50 H I L BNN
@@ -92,11 +92,29 @@ X VDDANA 9 600 800 200 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x02
+# Bast-Pro-Mini-M0-rescue_C_Small-Device
 #
-DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+DEF Bast-Pro-Mini-M0-rescue_C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Bast-Pro-Mini-M0-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Bast-Pro-Mini-M0-rescue_Conn_01x02-Connector_Generic
+#
+DEF Bast-Pro-Mini-M0-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F1 "Bast-Pro-Mini-M0-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -111,11 +129,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x12
+# Bast-Pro-Mini-M0-rescue_Conn_01x12-Connector_Generic
 #
-DEF Connector_Generic_Conn_01x12 J 0 40 Y N 1 F N
+DEF Bast-Pro-Mini-M0-rescue_Conn_01x12-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 600 50 H V C CNN
-F1 "Connector_Generic_Conn_01x12" 0 -700 50 H V C CNN
+F1 "Bast-Pro-Mini-M0-rescue_Conn_01x12-Connector_Generic" 0 -700 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -150,11 +168,11 @@ X Pin_9 9 -200 -300 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x02_Odd_Even
+# Bast-Pro-Mini-M0-rescue_Conn_02x02_Odd_Even-Connector_Generic
 #
-DEF Connector_Generic_Conn_02x02_Odd_Even J 0 40 Y N 1 F N
+DEF Bast-Pro-Mini-M0-rescue_Conn_02x02_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 100 50 H V C CNN
-F1 "Connector_Generic_Conn_02x02_Odd_Even" 50 -200 50 H V C CNN
+F1 "Bast-Pro-Mini-M0-rescue_Conn_02x02_Odd_Even-Connector_Generic" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -173,14 +191,91 @@ X Pin_4 4 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_USB_B_Micro
+# Bast-Pro-Mini-M0-rescue_LED-Device
 #
-DEF Connector_USB_B_Micro J 0 40 Y Y 1 F N
+DEF Bast-Pro-Mini-M0-rescue_LED-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Bast-Pro-Mini-M0-rescue_LED-Device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Bast-Pro-Mini-M0-rescue_Polyfuse-Device
+#
+DEF Bast-Pro-Mini-M0-rescue_Polyfuse-Device F 0 0 N Y 1 F N
+F0 "F" -100 0 50 V V C CNN
+F1 "Bast-Pro-Mini-M0-rescue_Polyfuse-Device" 100 0 50 V V C CNN
+F2 "" 50 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *polyfuse*
+ *PTC*
+$ENDFPLIST
+DRAW
+S -30 100 30 -100 0 1 10 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 -60 100 -60 60 60 -60 60 -100 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Bast-Pro-Mini-M0-rescue_R-Device
+#
+DEF Bast-Pro-Mini-M0-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Bast-Pro-Mini-M0-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Bast-Pro-Mini-M0-rescue_SW_DPST_x2-Switch
+#
+DEF Bast-Pro-Mini-M0-rescue_SW_DPST_x2-Switch SW 0 0 Y N 2 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "Bast-Pro-Mini-M0-rescue_SW_DPST_x2-Switch" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+X A 3 -200 0 100 R 50 50 2 1 I
+X B 4 200 0 100 L 50 50 2 1 I
+ENDDRAW
+ENDDEF
+#
+# Bast-Pro-Mini-M0-rescue_USB_B_Micro-Connector
+#
+DEF Bast-Pro-Mini-M0-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "Connector_USB_B_Micro" -200 350 50 H V L CNN
+F1 "Bast-Pro-Mini-M0-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
-ALIAS USB_B_Mini
 $FPLIST
  USB*
 $ENDFPLIST
@@ -206,102 +301,6 @@ X D+ 3 300 0 100 L 50 50 1 1 P
 X ID 4 300 -200 100 L 50 50 1 1 P
 X GND 5 0 -400 100 U 50 50 1 1 w
 X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_C_Small
-#
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Polyfuse
-#
-DEF Device_Polyfuse F 0 0 N Y 1 F N
-F0 "F" -100 0 50 V V C CNN
-F1 "Device_Polyfuse" 100 0 50 V V C CNN
-F2 "" 50 -200 50 H I L CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *polyfuse*
- *PTC*
-$ENDFPLIST
-DRAW
-S -30 100 30 -100 0 1 10 N
-P 2 0 1 0 0 100 0 -100 N
-P 4 0 1 0 -60 100 -60 60 60 -60 60 -100 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R
-#
-DEF Device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_DPST_x2
-#
-DEF Switch_SW_DPST_x2 SW 0 0 Y N 2 F N
-F0 "SW" 0 125 50 H V C CNN
-F1 "Switch_SW_DPST_x2" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C -80 0 20 0 0 0 N
-C 80 0 20 0 0 0 N
-P 2 0 0 0 -60 10 60 70 N
-X A 1 -200 0 100 R 50 50 1 1 P
-X B 2 200 0 100 L 50 50 1 1 P
-X A 3 -200 0 100 R 50 50 2 1 I
-X B 4 200 0 100 L 50 50 2 1 I
 ENDDRAW
 ENDDEF
 #

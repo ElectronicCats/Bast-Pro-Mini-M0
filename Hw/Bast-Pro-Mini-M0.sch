@@ -1,6 +1,6 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:Bast-Pro-Mini-M0-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -65,7 +65,7 @@ Wire Notes Line
 Wire Notes Line
 	9700 650  9700 475 
 $Comp
-L Connector_Generic:Conn_01x02 P2
+L Bast-Pro-Mini-M0-rescue:Conn_01x02-Connector_Generic P2
 U 1 1 56D74FB3
 P 1970 2760
 F 0 "P2" H 1970 2910 50  0000 C CNN
@@ -76,7 +76,7 @@ F 3 "" H 1970 2760 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x12 P1
+L Bast-Pro-Mini-M0-rescue:Conn_01x12-Connector_Generic P1
 U 1 1 56D754D1
 P 1730 1770
 F 0 "P1" H 1730 2420 50  0000 C CNN
@@ -87,7 +87,7 @@ F 3 "" H 1730 1770 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x12 P3
+L Bast-Pro-Mini-M0-rescue:Conn_01x12-Connector_Generic P3
 U 1 1 56D755F3
 P 2230 1770
 F 0 "P3" H 2230 2420 50  0000 C CNN
@@ -187,7 +187,7 @@ Wire Wire Line
 Text Notes 1830 1270 0    60   ~ 0
 1
 $Comp
-L Bast-Pro-Mini-M0-rescue:ATSAMD21E18A-AF-Croketa-cache U2
+L Bast-Pro-Mini-M0-rescue:ATSAMD21E18A-AF-Croketa-cache-Bast-Pro-Mini-M0-rescue U2
 U 1 1 5BAEC202
 P 5030 2010
 F 0 "U2" H 5030 3277 50  0000 C CNN
@@ -304,7 +304,7 @@ SWDIO
 Wire Wire Line
 	5630 2810 5880 2810
 $Comp
-L Device:C_Small C5
+L Bast-Pro-Mini-M0-rescue:C_Small-Device C5
 U 1 1 5BB06F9B
 P 7180 1120
 F 0 "C5" H 7272 1166 50  0000 L CNN
@@ -316,7 +316,7 @@ F 4 "885012206071" H 7180 1120 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C4
+L Bast-Pro-Mini-M0-rescue:C_Small-Device C4
 U 1 1 5BB0701E
 P 6940 1240
 F 0 "C4" H 7032 1286 50  0000 L CNN
@@ -347,7 +347,7 @@ Wire Wire Line
 Wire Wire Line
 	6940 1110 5630 1110
 $Comp
-L Device:C_Small C3
+L Bast-Pro-Mini-M0-rescue:C_Small-Device C3
 U 1 1 5BB0CC95
 P 6680 1760
 F 0 "C3" H 6772 1806 50  0000 L CNN
@@ -401,7 +401,7 @@ Wire Wire Line
 Text Label 3950 1410 2    50   ~ 0
 RESET
 $Comp
-L Device:LED D1
+L Bast-Pro-Mini-M0-rescue:LED-Device D1
 U 1 1 5BB1D4DB
 P 8560 1655
 F 0 "D1" V 8598 1538 50  0000 R CNN
@@ -413,7 +413,7 @@ F 4 "AP2012EC" V 8560 1655 50  0001 C CNN "manf#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D2
+L Bast-Pro-Mini-M0-rescue:LED-Device D2
 U 1 1 5BB1D525
 P 9180 1655
 F 0 "D2" V 9218 1538 50  0000 R CNN
@@ -425,7 +425,7 @@ F 4 "APT2012SGC" V 9180 1655 50  0001 C CNN "manf#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R1
+L Bast-Pro-Mini-M0-rescue:R-Device R1
 U 1 1 5BB1D679
 P 8560 2075
 F 0 "R1" H 8630 2121 50  0000 L CNN
@@ -437,7 +437,7 @@ F 4 "ESR03EZPJ331" H 8560 2075 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Bast-Pro-Mini-M0-rescue:R-Device R2
 U 1 1 5BB1D85A
 P 9180 2085
 F 0 "R2" H 9250 2131 50  0000 L CNN
@@ -494,7 +494,7 @@ Wire Wire Line
 Text Label 9180 2235 3    50   ~ 0
 LED
 $Comp
-L Connector:USB_B_Micro J1
+L Bast-Pro-Mini-M0-rescue:USB_B_Micro-Connector J1
 U 1 1 5BB47277
 P 1250 4400
 F 0 "J1" H 1305 4867 50  0000 C CNN
@@ -526,7 +526,7 @@ Wire Wire Line
 	1250 4910 1200 4910
 Connection ~ 1200 4910
 $Comp
-L Device:Polyfuse F1
+L Bast-Pro-Mini-M0-rescue:Polyfuse-Device F1
 U 1 1 5BB4BE5F
 P 1910 4200
 F 0 "F1" V 1685 4200 50  0000 C CNN
@@ -544,7 +544,7 @@ Wire Wire Line
 Wire Wire Line
 	2260 4200 2260 4070
 $Comp
-L Device:C_Small C1
+L Bast-Pro-Mini-M0-rescue:C_Small-Device C1
 U 1 1 5BB50FD7
 P 8010 4850
 F 0 "C1" H 8102 4896 50  0000 L CNN
@@ -556,7 +556,7 @@ F 4 "885012106022" H 8010 4850 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Bast-Pro-Mini-M0-rescue:AP2112K-3.3TRG1-Croketa-cache U1
+L Bast-Pro-Mini-M0-rescue:AP2112K-3.3TRG1-Croketa-cache-Bast-Pro-Mini-M0-rescue U1
 U 1 1 5BB540C8
 P 9060 4720
 F 0 "U1" H 9060 5190 50  0000 C CNN
@@ -608,7 +608,7 @@ F 3 "" H 9950 4390 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L Bast-Pro-Mini-M0-rescue:C_Small-Device C2
 U 1 1 5BB62453
 P 10150 4670
 F 0 "C2" H 10242 4716 50  0000 L CNN
@@ -647,7 +647,7 @@ Connection ~ 9950 4520
 Wire Wire Line
 	9950 4520 10150 4520
 $Comp
-L Switch:SW_DPST_x2 SW1
+L Bast-Pro-Mini-M0-rescue:SW_DPST_x2-Switch SW1
 U 1 1 5BB741E9
 P 10145 1730
 F 0 "SW1" H 10145 1965 50  0000 C CNN
@@ -706,7 +706,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1410 4430 1410
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even J2
+L Bast-Pro-Mini-M0-rescue:Conn_02x02_Odd_Even-Connector_Generic J2
 U 1 1 5BB5EF14
 P 4315 4290
 F 0 "J2" H 4365 4507 50  0000 C CNN
@@ -756,7 +756,7 @@ Text Label 5890 2510 0    50   ~ 0
 Text Label 4230 2710 0    50   ~ 0
 LED
 $Comp
-L Bast-Pro-Mini-M0-rescue:+3.3V-Croketa-cache #PWR0101
+L Bast-Pro-Mini-M0-rescue:+3.3V-Croketa-cache-Bast-Pro-Mini-M0-rescue #PWR0101
 U 1 1 5BBD0E40
 P 2630 1170
 F 0 "#PWR0101" H 2630 1020 50  0001 C CNN
