@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Bast-Pro-Mini-M0-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -544,18 +544,6 @@ Wire Wire Line
 Wire Wire Line
 	2260 4200 2260 4070
 $Comp
-L Device:C_Small C1
-U 1 1 5BB50FD7
-P 8010 4850
-F 0 "C1" H 8102 4896 50  0000 L CNN
-F 1 "1uF" H 8102 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8010 4850 50  0001 C CNN
-F 3 "~" H 8010 4850 50  0001 C CNN
-F 4 "885012106022" H 8010 4850 50  0001 C CNN "manf#"
-	1    8010 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Bast-Pro-Mini-M0-rescue:AP2112K-3.3TRG1-Croketa-cache U1
 U 1 1 5BB540C8
 P 9060 4720
@@ -605,18 +593,6 @@ F 1 "+3.3V" H 9965 4563 50  0000 C CNN
 F 2 "" H 9950 4390 50  0001 C CNN
 F 3 "" H 9950 4390 50  0001 C CNN
 	1    9950 4390
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5BB62453
-P 10150 4670
-F 0 "C2" H 10242 4716 50  0000 L CNN
-F 1 "2.2uF" H 10242 4625 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10150 4670 50  0001 C CNN
-F 3 "~" H 10150 4670 50  0001 C CNN
-F 4 "885012106011" H 10150 4670 50  0001 C CNN "manf#"
-	1    10150 4670
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -806,4 +782,28 @@ Connection ~ 2530 1220
 Wire Wire Line
 	2530 1220 2530 1170
 NoConn ~ 4430 1910
+$Comp
+L Device:C_Small C2
+U 1 1 5BB62453
+P 10150 4670
+F 0 "C2" H 10242 4716 50  0000 L CNN
+F 1 "1uF" H 10242 4625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10150 4670 50  0001 C CNN
+F 3 "~" H 10150 4670 50  0001 C CNN
+F 4 "885012106022" H 10150 4670 50  0001 C CNN "manf#"
+	1    10150 4670
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5BB50FD7
+P 8010 4850
+F 0 "C1" H 8102 4896 50  0000 L CNN
+F 1 "1uF" H 8102 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8010 4850 50  0001 C CNN
+F 3 "~" H 8010 4850 50  0001 C CNN
+F 4 "885012106022" H 8010 4850 50  0001 C CNN "manf#"
+	1    8010 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
