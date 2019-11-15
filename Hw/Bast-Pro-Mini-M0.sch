@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Bast Pro Mini M0"
-Date "2019-01-10"
-Rev "0.2"
+Date "2019-11-15"
+Rev "1"
 Comp "Electronic Cats"
 Comment1 "Edgar Capuchino"
 Comment2 "Andrés Sabas"
@@ -499,9 +499,9 @@ U 1 1 5BB47277
 P 1250 4400
 F 0 "J1" H 1305 4867 50  0000 C CNN
 F 1 "USB_B_Micro" H 1305 4776 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Wuerth_629105150521" H 1400 4350 50  0001 C CNN
+F 2 "Connectors:U254051N4BH806" H 1400 4350 50  0001 C CNN
 F 3 "~" H 1400 4350 50  0001 C CNN
-F 4 "629105150521" H 1250 4400 50  0001 C CNN "manf#"
+F 4 "U254051N4BH806" H 1250 4400 50  0001 C CNN "manf#"
 	1    1250 4400
 	1    0    0    -1  
 $EndComp
