@@ -57,6 +57,11 @@ So now you can program your Bast Pro Mini M0 as a common arduino!
 
 Test the Blink example and then start prototyping!  
 
+## Pinout
+
+![](https://raw.githubusercontent.com/ElectronicCats/Bast-Pro-Mini-M0/master/docs/pinout.png)
+
+
 ## License hardware
 
 Hardware released under an CERN Open Hardware Licence v1.2. See the LICENSE_HARDWARE file for more information.
