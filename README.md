@@ -4,6 +4,9 @@
 
 **[OSHW] MX0005 | Certified open source hardware |** [oshwa.org/cert.](https://www.oshwa.org/cert)
 
+<a href="https://electroniccats.com/store/bast-pro-mini-m0/">
+  <img src="https://electroniccats.com/wp-content/uploads/badge_store.png" width="200" height="104" />
+</a>
 
 Electronic Cats Bast are a complete line of development boards for electronic cats.
 
