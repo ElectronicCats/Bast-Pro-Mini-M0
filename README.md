@@ -60,6 +60,15 @@ So now you can program your Bast Pro Mini M0 as a common arduino!
 
 Test the Blink example and then start prototyping!  
 
+## Driver for windows 7 and 8.1
+
+![Zadig image](https://raw.githubusercontent.com/DeqingSun/ch55xduino/ch55xduino/docs/Zadig_bootloader.png)
+
+[Zadig](https://zadig.akeo.ie/) is the recommended tool to install drivers in Windows. The bootloader (4348,55E0) should be installed with WinUSB or libusb-win32 driver.
+
+You can use USB Serial (CDC) driver for default CDC USB stack. If you tried to emulate another type of USB device without changing the PID/VID, you may need to uninstall the device before installing a new driver.
+
+
 ## Pinout
 
 ![](https://raw.githubusercontent.com/ElectronicCats/Bast-Pro-Mini-M0/master/docs/pinout.png)
