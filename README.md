@@ -52,7 +52,7 @@ If you did hit "OK", travel back to the Board Manager menu. You should be able t
 
 ![](https://raw.githubusercontent.com/ElectronicCats/Bast-Pro-Mini-M0/master/docs/images/6_ecBoards.png)
 
-Clink on install and once the boards are installed you should be able to select them on the (Tools > Boards) section.
+Click on install and once the boards are installed you should be able to select them on the (Tools > Boards) section.
 
 ![](https://raw.githubusercontent.com/ElectronicCats/Bast-Pro-Mini-M0/master/docs/images/7_bastInstalled.png)
 
